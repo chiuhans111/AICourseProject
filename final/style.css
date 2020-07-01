@@ -1,0 +1,48 @@
+/* 純粹是CSS */
+html,
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 微軟正黑體;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start
+}
+
+.cell {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    width: 10%;
+    height: fit-content;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+strong{
+
+    position: absolute;
+    color: white;
+    z-index: 99;
+    bottom: 10px;
+    width: 100%;
+    left: 0;
+    text-shadow: 2px 2px black;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    
+    margin: 0;
+}
